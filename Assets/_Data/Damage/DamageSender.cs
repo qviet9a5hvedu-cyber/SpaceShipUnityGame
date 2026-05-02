@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DamageSender : SaiMonoBehaviour
+public class DamageSender : Automation
 {
     [SerializeField] protected int damage = 1;
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(SphereCollider))]
-public abstract class DamageReceiver : SaiMonoBehaviour
+public abstract class DamageReceiver : Automation
 {
     [Header("Damage Receiver")]
     [SerializeField] protected SphereCollider sphereCollider;

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletCtrl : SaiMonoBehaviour
+public class BulletCtrl : Automation
 {
     [SerializeField] protected DamageSender damageSender;
     public DamageSender DamageSender { get => damageSender; }

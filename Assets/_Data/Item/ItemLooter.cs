@@ -4,7 +4,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(SphereCollider))]
 [RequireComponent(typeof(Rigidbody))]
-public class ItemLooter : SaiMonoBehaviour
+public class ItemLooter : Automation
 {
     [SerializeField] protected Inventory inventory;
     [SerializeField] protected SphereCollider _collider;

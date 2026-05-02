@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MapCtrl : SaiMonoBehaviour
+public class MapCtrl : Automation
 {
     private static MapCtrl instance;
     public static MapCtrl Instance => instance;

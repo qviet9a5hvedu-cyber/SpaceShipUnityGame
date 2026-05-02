@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JunkSpawnerCtrl : SaiMonoBehaviour
+public class JunkSpawnerCtrl : Automation
 {
     [SerializeField] protected JunkSpawner junkSpawner;
     public JunkSpawner JunkSpawner { get => junkSpawner; }
@@ -28,7 +28,7 @@ public class JunkSpawnerCtrl : SaiMonoBehaviour
     protected virtual void LoadSpawnPoints()
     {
         if (this.spawnPoints != null) return;
-        this.spawnPoints = Transform.FindObjectOfType<JunkSpawnPoints>();
+        this.spawnPoints = Transform.FindFirstObjectByType<JunkSpawnPoints>();
         Debug.Log(transform.name + ": LoadSpawnPoints", gameObject);
     }
 }

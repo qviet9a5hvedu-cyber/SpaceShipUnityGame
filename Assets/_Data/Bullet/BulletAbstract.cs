@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class BulletAbstract : SaiMonoBehaviour
+public abstract class BulletAbstract : Automation
 {
     [Header("Bullet Abtract")]
     [SerializeField] protected BulletCtrl bulletCtrl;

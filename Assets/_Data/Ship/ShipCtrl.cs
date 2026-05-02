@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShipCtrl : SaiMonoBehaviour
+public class ShipCtrl : Automation
 {
     [SerializeField] protected Inventory inventory;
     public Inventory Inventory => inventory;

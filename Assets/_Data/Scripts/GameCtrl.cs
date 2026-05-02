@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameCtrl : SaiMonoBehaviour
+public class GameCtrl : Automation
 {
     private static GameCtrl instance;
     public static GameCtrl Instance => instance;
@@ -26,7 +26,7 @@ public class GameCtrl : SaiMonoBehaviour
     protected virtual void LoadCamera()
     {
         if (this.mainCamera != null) return;
-        this.mainCamera = GameCtrl.FindObjectOfType<Camera>();
+        this.mainCamera = GameCtrl.FindFirstObjectByType<Camera>();
         Debug.Log(transform.name + ": LoadCamera", gameObject);
     }
 }

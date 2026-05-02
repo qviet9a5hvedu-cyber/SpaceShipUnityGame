@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerCtrl : SaiMonoBehaviour
+public class PlayerCtrl : Automation
 {
 
     private static PlayerCtrl instance;

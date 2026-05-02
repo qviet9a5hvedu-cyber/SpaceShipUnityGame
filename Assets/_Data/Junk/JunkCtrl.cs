@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JunkCtrl : SaiMonoBehaviour
+public class JunkCtrl : Automation
 {
     [SerializeField] protected Transform model;
     public Transform Model { get => model; }

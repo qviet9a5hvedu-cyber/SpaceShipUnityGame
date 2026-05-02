@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Level : SaiMonoBehaviour
+public class Level : Automation
 {
     [Header("Level")]
     [SerializeField] protected int levelCurrent = 0;

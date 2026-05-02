@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FollowTarget : SaiMonoBehaviour
+public class FollowTarget : Automation
 {
 
     [SerializeField] protected Transform target;

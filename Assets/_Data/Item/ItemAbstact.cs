@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class ItemAbstract : SaiMonoBehaviour
+public abstract class ItemAbstract : Automation
 {
 	[Header("Junk Abstract")]
 	[SerializeField] protected ItemCtrl itemCtrl;

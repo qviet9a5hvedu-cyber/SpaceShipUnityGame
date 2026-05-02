@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class JunkAbstract : SaiMonoBehaviour
+public abstract class JunkAbstract : Automation
 {
 	[Header("Junk Abstract")]
 	[SerializeField] protected JunkCtrl junkCtrl;

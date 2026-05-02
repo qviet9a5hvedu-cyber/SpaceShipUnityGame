@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JunkSpawnerRandom : SaiMonoBehaviour
+public class JunkSpawnerRandom : Automation
 {
     [Header("Junk Random")]
     [SerializeField] protected JunkSpawnerCtrl junkSpawnerCtrl;
